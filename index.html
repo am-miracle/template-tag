@@ -1,0 +1,39 @@
+
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous">
+    </script>
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <button type="button" onclick="showForm()" class="show-form">Show Form</button>
+
+      <!-- html template tag starts here -->
+      <template id="todo-input">
+        <div class="wrapper">
+          <header>
+            <h1>
+              <label for="myInput">To Do List</label>
+            </h1>
+            <input type="text" id="myInput" placeholder="Things to be done..." />
+            <span class="addBtn" id="add_button">Add</span>
+          </header>
+          <ul id="myUL">
+            
+          </ul>
+        </div>
+      </template>
+
+      <!-- html template tag ends here -->
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
